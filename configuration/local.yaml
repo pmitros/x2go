@@ -1,0 +1,5 @@
+- name: Provision local computer
+  hosts: localhost
+  connection: local
+  tasks:
+  - include: tasks/baseline.yaml
