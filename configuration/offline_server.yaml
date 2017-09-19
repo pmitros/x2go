@@ -3,3 +3,4 @@
   connection: local
   tasks:
   - include: tasks/baseline.yaml
+  - include: tasks/gateway.yaml

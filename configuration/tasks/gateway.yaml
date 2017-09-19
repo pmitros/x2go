@@ -1,0 +1,4 @@
+- name: Basic utils
+  apt: name={{ item }} 
+  with_items:
+  - dnsmasq
